@@ -1,0 +1,71 @@
+html, body {
+	background-color: #181A18; /* soft black */
+	color: #F6F4F1; /* bone white */
+	font-family: "Nunito", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+h4 {
+	font-weight: 300;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #121212;
+}
+
+.circle:hover {
+	transform: scale(1.02);
+	background-color: #111111;
+	transition: all .1s ease-in-out;
+}
+
+#smile {
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.slight-fade {
+	opacity: .86;
+	font-weight: 200;
+}
+
+.links > a {
+	color: #f6f1f6;
+	opacity: .9;
+	padding: .5rem;
+}
+
+.links > a:visited {
+	color: inherit;
+}
+
+.links > a:hover {
+	color: #f6f4f1;
+	opacity: 1;
+}
+
+.space-s { margin: .5rem; }
+.space-m { margin: 1rem; }
+.space-l { margin: 2rem; }
